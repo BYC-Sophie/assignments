@@ -1,0 +1,35 @@
+{
+  "utterances-index": {
+    "affirmative_questions": "<class 'str'>",
+    "annotator_id": "<class 'str'>",
+    "date": "<class 'str'>",
+    "gpt35_prediction": "<class 'str'>",
+    "gpt35_summary": "<class 'str'>",
+    "inaudible": "<class 'str'>",
+    "interview_answer_raw": "<class 'str'>",
+    "interview_question_raw": "<class 'str'>",
+    "label": "<class 'str'>",
+    "multiple_questions": "<class 'str'>",
+    "question_order": "<class 'str'>",
+    "title": "<class 'str'>",
+    "type": "<class 'str'>",
+    "url": "<class 'str'>"
+  },
+  "speakers-index": {
+    "name": "<class 'str'>",
+    "role": "<class 'str'>"
+  },
+  "conversations-index": {
+    "date": "<class 'str'>",
+    "president": "<class 'str'>",
+    "question_order": "<class 'str'>",
+    "title": "<class 'str'>",
+    "url": "<class 'str'>"
+  },
+  "overall-index": {
+    "name": "<class 'str'>",
+    "source": "<class 'str'>",
+    "created": "<class 'str'>"
+  },
+  "version": 1
+}

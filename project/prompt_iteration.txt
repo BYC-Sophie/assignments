@@ -1,0 +1,143 @@
+You are an expert in prompt engineering and annotation task design. I need your help to iteratively improve a prompt for labeling soundboarding in emotional-support conversations.
+
+## Background Context
+
+I have been using a prompt (provided below as "Original Prompt") to instruct a large language model (LLM) to label utterances in emotional-support conversations for the presence of soundboarding. The original task was binary classification: label each utterance as 1 (soundboarding) or 0 (not soundboarding).
+
+However, I have identified a significant discrepancy: there are 25 cases where the LLM labeled utterances as 1 (soundboarding), but human annotators (two independent annotators) both labeled them as 0 (not soundboarding). This suggests that the current prompt may be leading the LLM to over-identify soundboarding.
+
+**Important Change**: For the improved prompt, I want to change the output format from binary (0/1) to a continuous score between 0.0 and 1.0, where:
+- 0.0 = definitely not soundboarding
+- 1.0 = definitely soundboarding  
+- Values in between represent degrees of soundboarding likelihood (e.g., 0.3 = low likelihood, 0.7 = high likelihood)
+
+## Original Prompt
+
+[Insert the content from prompt_pre.txt here]
+
+## Misclassification Data
+
+I have a table containing 25 cases of misclassification. Each case includes:
+- **Index**: The utterance identifier (e.g., "1.5", "2.3")
+- **Content**: The Seeker's utterance that was misclassified
+- **supporter-pre**: The Supporter's utterance immediately before this Seeker utterance (context)
+- **supporter-post**: The Supporter's utterance immediately after this Seeker utterance (context)
+- **gpt5**: The LLM's label (all are 1 in this dataset)
+- **annotator1**: Human annotator 1's label (all are 0)
+- **annotator2**: Human annotator 2's label (all are 0)
+- **human_aggregate**: Aggregate human label (0, since both annotators said 0)
+
+The table will be provided separately. For each case, you should consider:
+1. The Seeker's utterance itself
+2. The conversational context (what the Supporter said before and after)
+3. Why the LLM might have labeled it as 1
+4. Why humans labeled it as 0
+
+## Your Task
+
+Please analyze this situation and provide a comprehensive response in the following structure:
+
+### Part 1: Root Cause Analysis
+
+First, analyze why the LLM is labeling these 25 utterances as soundboarding (1) when humans consistently label them as 0. Consider:
+- What patterns or linguistic features in these utterances might have triggered the LLM's "soundboarding" label?
+- How might the original prompt's guidelines be ambiguous or leading to over-identification?
+- What contextual cues (from supporter-pre and supporter-post) might the LLM be misinterpreting?
+- Are there specific words, phrases, or sentence structures that appear frequently in these misclassified cases?
+
+Provide a detailed analysis of the root causes.
+
+### Part 2: Three Improvement Plans
+
+Based on your analysis, propose THREE distinct plans to improve the prompt. Each plan should:
+
+**Plan 1: [Name/Description]**
+- Specific changes to make to the prompt
+- Rationale for why these changes would address the misclassification issue
+- Expected impact on reducing false positives
+
+**Plan 2: [Name/Description]**
+- Specific changes to make to the prompt
+- Rationale for why these changes would address the misclassification issue
+- Expected impact on reducing false positives
+
+**Plan 3: [Name/Description]**
+- Specific changes to make to the prompt
+- Rationale for why these changes would address the misclassification issue
+- Expected impact on reducing false positives
+
+Each plan should take a different approach (e.g., one might focus on clarifying definitions, another on adding negative examples, another on emphasizing context).
+
+### Part 3: Plan Recommendation
+
+Compare the three plans and recommend which one you believe would be most effective. Explain:
+- Why this plan is superior to the others
+- What combination of elements from different plans might work best
+- Any potential risks or limitations of the recommended approach
+
+### Part 4: Final Improved Prompt
+
+Provide the complete, revised prompt that incorporates your recommended improvements. The prompt should:
+- Maintain the original structure and format
+- Clearly address the identified issues
+- Be ready to use for the annotation task
+- Include all necessary components (definition, guidelines, examples, output format)
+- **IMPORTANT**: The output format should be a continuous score between 0 and 1 (not binary 0/1), where:
+  - 0.0 means definitely not soundboarding
+  - 1.0 means definitely soundboarding
+  - Values closer to 1 indicate higher likelihood of soundboarding
+  - Values closer to 0 indicate lower likelihood of soundboarding
+  - The score should reflect the degree/confidence of soundboarding presence
+
+### Part 5: Thinking Process
+
+Document your complete thinking process throughout this analysis:
+- How you identified patterns in the misclassified cases
+- Your reasoning for each proposed change
+- Trade-offs you considered
+- Why you ultimately chose the recommended approach
+
+## Output Format
+
+Please structure your response as follows:
+
+```
+=== PART 1: ROOT CAUSE ANALYSIS ===
+
+[Your detailed analysis here]
+
+=== PART 2: THREE IMPROVEMENT PLANS ===
+
+**Plan 1: [Name]**
+[Description and changes]
+
+**Plan 2: [Name]**
+[Description and changes]
+
+**Plan 3: [Name]**
+[Description and changes]
+
+=== PART 3: PLAN RECOMMENDATION ===
+
+[Your recommendation and reasoning]
+
+=== PART 4: FINAL IMPROVED PROMPT ===
+
+[Complete revised prompt]
+
+=== PART 5: THINKING PROCESS ===
+
+[Your complete thinking process]
+```
+
+## Important Notes
+
+- Focus on reducing false positives (cases labeled as 1 by LLM but 0 by humans)
+- Maintain the prompt's ability to correctly identify true soundboarding cases
+- Consider the conversational context when making recommendations
+- Be specific and actionable in your suggestions
+- Ensure the improved prompt is clear, unambiguous, and easy for an LLM to follow
+- **Output Format Requirement**: The improved prompt must output a continuous score between 0.0 and 1.0 (not binary 0/1), representing the likelihood/degree of soundboarding. Examples: 0.0, 0.2, 0.5, 0.7, 0.9, 1.0
+
+Please begin your analysis. I will provide the table of 25 misclassified cases in the next message.
+

@@ -1,0 +1,122 @@
+utterance_index,utterance,score,rationale
+seeker_5_1,could be better,0.1,Minimal emotional expression without reflection or reasoning.
+seeker_5_2,thank you, I just don't know what else to do to get a job?,0.2,This is a direct expression of frustration and implicit advice-seeking, not self-directed reasoning.
+seeker_5_3,have tried that but don't even get an interview,0.2,A factual complaint in response to the supporter, not reflective or self-exploratory.
+seeker_5_4,yes, I do not qualify for unemployment because I have savings above the min threshold and I also have rental property, which is currently loss making and I can't sell it because it's 30% below market value,0.3,Descriptive and externally focused, though shows mild situational processing.
+seeker_5_5,it's almost depleted, been out of work now for nearly 9 months but still can't get unemployment support because of the property that I cannot get rid off else I will declared bankrupt by the mortgage lender,0.4,Some internal frustration and explanation, bordering on reflective thinking.
+seeker_5_6,family is not being fully supported compared to when I had full time job. had to get rid of one car and other things just to get by,0.3,Mostly factual with implied emotion but little reasoning or self-exploration.
+seeker_5_7,but the cost is 7 years of my future???,0.6,Shows emotional processing and tentative reasoning about consequences—clear sign of internal conflict.
+seeker_5_8,very well put. seems i am being penalised for working hard, saving and investing? I should have been on more holidays and lived all the way above my means!,0.8,Expresses evolving perspective and ironic self-reflection, clear soundboarding.
+seeker_5_9,thank you for your help.,0.0,Simple expression of gratitude, no internal reasoning.
+seeker_5_10,say i can't quit until we have exchanged 10 messages or spent 15min. I think that has all been done, yes?,0.1,Task-related clarification, not emotional or reflective.
+seeker_1001_1,Hello,0.0,Simple greeting without any reflective or emotional content.
+seeker_1001_2,I'm ashamed of how I look which makes me anxious when I have to attend zoom meetings, I have to leave my camera off.  It feels like cheating!,0.8,Expresses internal emotional conflict and self-judgment — strong example of self-directed reasoning.
+seeker_1001_3,I am badly in need of a haircut due to the pandemic...my short layered hair is now shoulder length shag lol...I hate the way I look right now and it gets me down.,0.6,Mild humor but clearly emotional regulation and internal self-assessment.
+seeker_1001_4,oh really?  how long did it take you to get up the nerve....its been months and months of mic only for me lol...and the silly thing is the people i'm zooming with aren't particularly attractive so I shouldn't feel ashamed.,0.7,Blends question with reflection on personal insecurity and illogical self-standards — good sign of soundboarding.
+seeker_1001_5,in person i am much more confidant...would like to care less.,0.6,Reflects a contrast in self-perception and desire for emotional change — self-directed reasoning.
+seeker_1001_6,care less about being on cam i mean,0.4,Clarifying statement that continues the train of thought, though not deeply reflective alone.
+seeker_1001_7,some people look so comfortable and relaxed!  I just get seized up with anxiety,0.5,Comparison and emotional processing of self vs others — moderate soundboarding.
+seeker_1001_8,maybe i should take the plunge...it seems so silly to me because logically i am not in these meetings to impress anyone,0.9,Classic soundboarding — weighing logic vs emotion and testing a potential action aloud.
+seeker_1001_9,maybe i'll pick the least threatening meeting and start there...one that's a smaller group,0.9,Tentative problem-solving and strategy-testing — strong internal reasoning.
+seeker_1001_10,oh really?  I haven't experimented with that.   maybe I can get a friend to practise that with me,0.5,Mild advice uptake but includes self-driven idea formation.
+seeker_1001_11,that's a good idea,0.2,Brief agreement with the supporter — not internally focused.
+seeker_1001_12,its hard I'm getting older now (50's) and its hard seeing my appearance go downhill.   But at least it's happening with my other friends too lol.  Gravity is a bitch!,0.7,Emotionally framed reflection on aging with humor — clear internal processing.
+seeker_1001_13,what age group are you in?,0.0,Direct question to supporter — not soundboarding.
+seeker_1001_14,hmm yes....my attitude and self defeating thoughts....i need to work on that, thank you for your encouragement,0.8,Self-recognition of internal thought patterns and need for change — high self-reflection.
+seeker_1001_15,You know you're right there,0.3,Acknowledgment of supporter’s comment, with mild reflection.
+seeker_1001_16,maybe it's like a lot of things for me, that always seem worse until i try them," then i'm like ""what was I so worried about""",1.0,Strong insight into personal thought patterns and how fear is often disproven — clear soundboarding.
+seeker_1001_17,first world pandemic problems lol,0.3,Humorous meta-commentary with mild reflection, but not deeply reasoning.
+seeker_1001_18,i can't wait to have meetings in person again, so much better than zoom,0.2,Stated preference rather than emotional exploration.
+seeker_1001_19,but i'm grateful we have zoom in the meantime, zoom's better than a conference call,0.4,Shows some comparative reasoning and emotional balancing.
+seeker_1001_20,amen to that....it being over soon....we have all had to be so very patient,0.5,Shared emotional observation with moderate reflective tone.
+seeker_1001_21,thankyou for your help today.   so I will first practise with a friend, and play around with backgrounds.  then I will take the plunge in a low-key small meeting and see how it goes,0.9,Plans articulated aloud as a way to test and prepare for action — strong internal reasoning.
+seeker_1001_22,yes me too :),0.1,Minimal agreement — not reflective.
+seeker_1001_23,ok thank you again, stay safe and be well.  appreciate your help!  bye,0.0,Gratitude and closure — not soundboarding.
+seeker_1001_24,indeed,0.0,Simple affirmation — not reflective.
+seeker_523_1,Im so depressed,0.1,Pure emotional venting without internal reasoning.
+seeker_523_2,It just wont end,0.2,Expresses distress but not reflective thought.
+seeker_523_3,Now Im in quaritine again cant leave the house,0.2,Describes circumstances rather than thinking aloud.
+seeker_523_4,I dont have anyone to tak to,0.2,Expresses a feeling but not reflective reasoning.
+seeker_523_5,Plus my work hours have been cut,0.1,Factual statement responding to supporter, not self‑directed reasoning.
+seeker_523_6,I have family but they live on the west coast im on the eastcoast,0.2,Describing logistics rather than inner thought.
+seeker_523_7,So my money is now running low and rent is coming due,0.3,External stressor description with mild worry but not reflective processing.
+seeker_523_8,I like to read,0.1,Simple statement of preference.
+seeker_523_9,I like to walk on the beach,0.1,Simple statement of preference without thinking aloud.
+seeker_523_10,Yes I live on the beach but its so cold right now I cant even do that. I feal so isolated,0.4,Expresses emotional state and situational limitation with mild internal processing.
+seeker_523_11,Im going to do that tomorrow,0.2,Action statement responding to advice, not internal reasoning.
+seeker_523_12,Im going to bundle up and go to the beach. Probably walk down to the pier 1 mile,0.3,Future plan but motivated by supporter advice rather than self‑directed reasoning.
+seeker_523_13,Thats good advice, Im feeling a little better,0.2,Reaction to support rather than internal reasoning.
+seeker_523_14,I can take my iphone for music,0.1,Concrete planning without reflective reasoning.
+seeker_523_15,Thats good advice, thanks I think you helped me,0.1,Gratitude rather than reflection.
+seeker_523_16,Thats true, it just seems like I am alone cause well I am lol,0.4,Some inner reframing and mild self‑observation.
+seeker_523_17,Cats are cool,0.0,Simple statement with no reflective content.
+seeker_523_18,I have a Russian Blue cat ssmart very smart cat,0.1,Descriptive statement not involving self‑reflection.
+seeker_523_19,He's my buddy for sure.  Makes me happy to think of him,0.4,Shows emotional processing and internal meaning-making.
+seeker_523_20,Thats a good idea I'll look into it.  Well we better wrap this hit up?,0.1,Responding to advice and shifting to logistics.
+seeker_523_21,Oh sorry thought it was 15 minutes. So where are you at?,0.0,Clarifying information and asking a direct question.
+seeker_523_22,I moved from Renton to here in Myrtle Beach SC,0.1,Purely factual explanation.
+seeker_523_23,Got real tired of the weather and people there,0.2,Slight internal evaluation but mostly justification to the supporter.
+seeker_523_24,Everyone friendly here and actually talk to one another,0.1,Descriptive and externally focused.
+seeker_523_25,Have you ever left the state,0.0,Direct question to supporter.
+seeker_523_26,k bye,0.0,Conversation closure.
+seeker_632_1,feeling really stressed out and exhausted trying to find a job in a small town,0.4,Expresses emotional distress and mild reasoning about situational difficulty.
+seeker_632_2,yea that has really put a damper on a lot of my job searches. currently im in the medical field. i serve as an in home health care provider. but that is only part time.,0.3,Provides factual background with some implied frustration but little internal reasoning.
+seeker_632_3,thank you for that. i just wish i either had more hours or made more at a time. working part time just isnt cutting it.,0.6,Reflects desire and frustration, showing internal evaluation of the current situation.
+seeker_632_4,it is good that they are making progress on the vaccines. i just question their testing and how they are doing it.,0.5,Demonstrates tentative reasoning and skepticism — mild soundboarding.
+seeker_632_5,and i desperately need to move out of the situation that i am in. but cant do it with my current level of income.,0.6,Clearly articulates internal conflict and financial constraint — emotional reasoning.
+seeker_632_6,in the town where i live there are no services like uber eats or door dash.,0.2,Descriptive response with little self-reflection.
+seeker_632_7,i have been looking for work from home jobs right and left,0.3,Situational statement with mild internal effort but no reasoning.
+seeker_632_8,online order taker? how do you sign up for that?,0.0,Direct question seeking information, not soundboarding.
+seeker_632_9,highly possible, have a phone and a high speed internet connection.,0.2,Concrete response about feasibility — not reflective.
+seeker_632_10,thank you. i had not even heard of this. i will apply in a min when we are done talking. i apprecieate it.,0.3,Gratitude and action plan — mildly self-directed but not deeply reflective.
+seeker_632_11,thank you!!! :),0.0,Simple gratitude with no reflective content.
+seeker_324_1,Hi, how are you?,0.0,Simple greeting with no internal reasoning.
+seeker_324_2,I am worried that COVID-19 has made me depressed. I am usually a well mannered, even personality but I find myself impatient and possibly getting depressed.,0.8,Clear self-evaluation and emotional reasoning about changes in behavior and mood.
+seeker_324_3,Possibly... I think the remote learning of my kids and the iability to leave the house or go out, is making me sadder than normal.,0.7,Exploring emotional state and identifying potential causes — soundboarding.
+seeker_324_4,I am also worried that I am not playing the political game well. I feel like I am too straight forward, not rude, but I should play politics more to get ahead.,0.8,Internal conflict and reflection on self-presentation and strategy — strong soundboarding.
+seeker_324_5,I agree. As I deal with more and more power, there seems to be more politics.,0.6,Continues reflection on social dynamics and self-awareness under increased responsibility.
+seeker_324_6,Yes, I like to watch movies and workout. THat's about it. with a wife and 2 kids, I don't have more time.,0.3,Factual description of preferences and time constraints with minimal reflection.
+seeker_324_7,That would be nice. Is that what you do when you are stressed or depressed?,0.1,Engaging supporter with a direct question — not self-directed.
+seeker_324_8,Yeah. How do you cope with your stresses? I find myself drinking more than I want now too.,0.6,Question combined with personal concern and emerging self-reflection.
+seeker_324_9,That's fun. I try to get out once a month for a nice hike. We did the Indiana Dunes last month and that was good. With the snow coming, it might be more snow shoeing moving forward.,0.4,Mild personal planning and reflection, but mostly descriptive.
+seeker_324_10,Yeah. I have not missed a workout since COVID-19 started. That seems to keep me grounded.,0.6,Personal reflection on a coping strategy and its emotional impact — moderate soundboarding.
+seeker_324_11,Yeah. In chicago, we have a lot of snow but also some good state trails. It's been helpful, especially when this first started. I live across the street from a forest preserve, which was a life saver.,0.5,Reflective on helpful aspects of environment and how it contributed to emotional stability.
+seeker_324_12,I am trying to do more. I work out daily and that isgood but I am trying yoga for the second workout.,0.5,Describes action and intent to improve well-being — light internal reasoning.
+seeker_324_13,Thanks for your help.,0.0,Simple expression of gratitude, no self-reflection.
+seeker_1125_1,Hi, I am in a town all alone and far from family. I have been really depressed.,0.5,Expresses emotional distress and context but without much internal reasoning yet.
+seeker_1125_2,Yes, I moved away and I thought I would be happier on my own but now all I do is think about them and miss them. Nobody ever has time to talk on the phone so I am all alone.,0.8,Shows reflective thinking about an earlier decision and current emotional impact — strong soundboarding.
+seeker_1125_3,No, I was living with my mom and dad but when I moved out my brother got my room. He and I didnt get along so he would never want me to move back into the house with them either.,0.6,Explains situational reasoning and family tension — moderate internal reflection.
+seeker_1125_4,That is a good idea, I can reach out to my mom. Maybe I should write her an email or something?My brother was a bully and so he is a big reason that I moved. My parents encouraged us to fight and argue, it wasn't a very fun place to live.,0.9,Strong reasoning about possible action (writing to mom) and deep emotional reflection on family conflict.
+seeker_1125_5,I've always been closer to my mom so she is much more understanding. She helps me pay my monthly bills too.,0.5,Personal reflection on relationship quality and support — mild soundboarding.
+seeker_1125_6,Yes, that is a good point. I have always heard the blood is thicker than water.,0.3,Agreeing with a common saying, mildly reflective but mostly reactive.
+seeker_1125_7,I have also been upset lately because I had to leave all my pets when I moved out. I left my dog and my cat back at home.,0.6,Expressing recent emotional conflict and sense of loss — moderate soundboarding.
+seeker_1125_8,No, I am too far away to stop by or go for the weekend. I would have to plan a whole trip and I cant really afford it yet. My brother knew that the pets were mine but he demanded that he keep them there and I didnt want to fight with him so I said fine.,0.7,Describes internal reasoning behind a decision to avoid conflict — clear emotional processing.
+seeker_1125_9,Yeah, you are right. Once he let the gate open just so my dog would run away, he says he didn't do it but I know him and he is really mean and vengeful. He would also pull pranks on me that were just cruel. He once told me that my cat was ran over but he was just hiding her at a friends house for a week.,0.8,Emotional recollection of past experiences that shaped current mindset — strong internal reflection.
+seeker_1125_10,Yeah, I used to be really depressed living there. I haven't thought about why I moved but you are helping me remember that i'm better off now. I am lonely but so much happier not living in the turmoil over there.,1.0,Powerful example of realization, reasoning, and emotional reframing — full soundboarding.
+seeker_1125_11,Yep, I am feeling better today . Thank you for listening. Maybe I should just get a new rescue dog or something like that today? I don't want to dwell on my brother or that negativity. I am feeling a lot more hopeful just sharing my feelings.,0.9,Forward-looking emotional regulation and motivation, clearly reasoning aloud — strong soundboarding.
+seeker_1125_12,Thanks! Have a great day too!,0.0,Simple gratitude and closing — no internal reasoning.
+seeker_1223_1,Good afternoon,0.0,Simple greeting with no internal reasoning.
+seeker_1223_2,I lost my job 1 month ago and I can't find a new one, I have fear and anxiety that soon I will have nothing to pay with for my rent. Would you be able to suggest me how to cope with my fear?,0.3,Emotionally expressive but primarily a request for advice rather than self-directed reasoning.
+seeker_1223_3,It's just I feel fear all the time, and now with this pandemic it's really hard to find a job. I have a feelings now that if I fail I have to go back to my country as a loser.,0.6,Shows internal emotional processing and self-evaluative thoughts — moderate soundboarding.
+seeker_1223_4,It some sort of way, I lost my job because of it and my girlfriend is not talking to me as well now...,0.4,Expresses added stressors with mild reflection but largely descriptive.
+seeker_1223_5,Ah could be, what could you suggest me to do?,0.1,Direct advice-seeking with no internal reasoning.
+seeker_1223_6,I can try, but I don't see how it will help me to find a job. I barely can sleep at nights,0.6,Shows inner conflict, doubt, and emotional reasoning — notable soundboarding.
+seeker_1223_7,Do you think interviewers see that I have a fear and anxiety and that's why I don't get a job?,0.2,Direct question for reassurance rather than self-directed thought.
+seeker_1223_8,Oh ok I will try yoga then. If it will not help me what else I can try?,0.2,Action planning but motivated by advice-seeking, not internal reasoning.
+seeker_1223_9,Can I have any medications to intake to easy fear?,0.0,Direct question about medication, no reflective reasoning.
+seeker_1223_10,yeah I will, Thank you so much for today I feel better now.,0.1,Gratitude and emotional relief but not self-directed thought.
+seeker_123_1,Today is okay, i guess. I'm just stressed.,0.4,Mild emotional expression with tentative self-assessment.
+seeker_123_2,Yes, I found out I didnt pass college algebra and my academic advisor is pressuring me to take the class over this winter break in order to graduate on time.,0.6,Expresses stress and pressure while working through a specific situation — moderate soundboarding.
+seeker_123_3,But I have been in new york city all year and my parents just got me tickets to fly home,0.4,Descriptive but gives context to internal conflict about missing home — mild reflection.
+seeker_123_4,I really miss them,0.5,Short but emotionally reflective — sign of internal emotional processing.
+seeker_123_5,I don't mind retaking it, really,0.4,Expresses openness and internal acceptance, though briefly.
+seeker_123_6,yha. also, im worried i might fail again if i get too distracted by my family,0.7,Shows anticipatory self-doubt and internal reasoning — strong soundboarding.
+seeker_123_7,i mean, tutoring is just another added time commitment. I really failed the first time because i was depressed and unmotivated. which is why I'm excited to be with my family finally,0.9,Explains cause of past failure, emotional state, and forward-looking desire — deep self-reflection.
+seeker_123_8,yeah. that's another thing. I havent told my therapist or even my parents yet,0.7,Reveals internal hesitation and emotional burden — significant self-awareness.
+seeker_123_9,that i failed,0.5,Short continuation but implies emotional difficulty in revealing the truth.
+seeker_123_10,what if they're disappointed,0.6,Emotion-focused internal questioning — soundboarding through fear of judgment.
+seeker_123_11,how do i even begin to start the conversation,0.4,Action-focused but shows internal hesitation and anxiety.
+seeker_123_12,yeah i told my twin sister, actually,0.3,Factual statement, though implicitly reflective of trust dynamics.
+seeker_123_13,definitely. we go to different schools but we live together in nyc,0.2,Mostly descriptive with minimal internal reasoning.
+seeker_123_14,yha she's better at breaking bad news than i do... maybe i can ask her. i think i should tell my therapist myself though.,0.8,Self-directed plan formulation and reflection on relationship dynamics — strong soundboarding.
+seeker_123_15,yeah. well i feel much better about this. thank you so much,0.5,Emotionally evaluative and shows positive internal shift — mild closure soundboarding.

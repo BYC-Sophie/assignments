@@ -1,0 +1,411 @@
+You are an expert in prompt engineering and annotation task design. I need your help to iteratively improve a prompt for labeling soundboarding in emotional-support conversations.
+
+## Background Context
+
+I have been using a prompt (provided below as "Original Prompt") to instruct a large language model (LLM) to label utterances in emotional-support conversations for the presence of soundboarding. The original task was binary classification: label each utterance as 1 (soundboarding) or 0 (not soundboarding).
+
+However, I have identified a significant discrepancy: there are 25 cases where the LLM labeled utterances as 1 (soundboarding), but human annotators (two independent annotators) both labeled them as 0 (not soundboarding). This suggests that the current prompt may be leading the LLM to over-identify soundboarding.
+
+**Important Change**: For the improved prompt, I want to change the output format from binary (0/1) to a continuous score between 0.0 and 1.0, where:
+- 0.0 = definitely not soundboarding
+- 1.0 = definitely soundboarding  
+- Values in between represent degrees of soundboarding likelihood (e.g., 0.3 = low likelihood, 0.7 = high likelihood)
+
+## Original Prompt
+
+You are an annotator labeling emotional-support conversations for the presence of soundboarding.
+Each conversation contains utterances from both seekers and supporters.
+Your task is to label each utterance with:
+1 if it shows soundboarding, or
+
+
+0 if it does not.
+After each label, write a very short rationale (1 sentence max) explaining your reasoning.
+Definition:
+Soundboarding occurs when a speaker verbalizes their own thoughts aloud mainly to organize, test, or regulate their ideas or emotions, without explicitly expecting a full answer.
+It is typically produced by emotional-support seekers, reflecting self-directed reasoning rather than directly asking for information or advice.
+Labeling Guidelines:
+Label 1 (soundboarding) if the utterance fulfills the core criterion (speaker verbalizing thought to organize or regulate emotions/ideas aloud) and includes one or more indicative cues such as:
+self-directed reasoning or reflection
+hedges or uncertainty markers (e.g., “maybe”, “I think”, “I’m not sure”)
+absence of direct information requests
+language that helps the speaker make sense of a situation aloud
+
+
+Label 0 (not soundboarding) if the utterance is:
+a direct question or request for advice
+pure emotional venting without reasoning
+directed toward an absent third person
+purely factual or external statement without self-reflection
+
+
+Note: the above indicators are helpful cues but not individually required.
+Annotators should make holistic judgments based on the speaker’s function, whether they are thinking aloud to themselves or engaging others directly.
+Output Format:
+For each utterance, output one line in the following format:
+“<utterance> — [1 or 0] — <very short rationale>”
+Keep the rationale concise (5–10 words): Do not output JSON. Do not summarize the conversation.
+Example:
+“I don’t know… maybe I’m just overreacting. — 1 — self-reflective reasoning aloud” 
+“What should I do about it? — 0 — direct request for advice”
+“I’m so tired of this. — 0 — pure emotional venting”
+Instruction for Next Step: 
+I will now give you a conversation in this format:
+“seeker_116: Hello, I have been feeling very anxious and stressed recently.
+supporter_116: Why have you been feeling stressed and anxious?
+…”
+Please analyze each utterance in order and label it with 1 or 0, followed by a very short rationale (as shown in the example).
+Output a clean list (one utterance per line).
+
+## Misclassification Data
+
+I have a table containing 25 cases of misclassification. Each case includes:
+- **Index**: The utterance identifier (e.g., "1.5", "2.3")
+- **Content**: The Seeker's utterance that was misclassified
+- **supporter-pre**: The Supporter's utterance immediately before this Seeker utterance (context)
+- **supporter-post**: The Supporter's utterance immediately after this Seeker utterance (context)
+- **gpt5**: The LLM's label (all are 1 in this dataset)
+- **annotator1**: Human annotator 1's label (all are 0)
+- **annotator2**: Human annotator 2's label (all are 0)
+- **human_aggregate**: Aggregate human label (0, since both annotators said 0)
+
+The table will be provided separately. For each case, you should consider:
+1. The Seeker's utterance itself
+2. The conversational context (what the Supporter said before and after)
+3. Why the LLM might have labeled it as 1
+4. Why humans labeled it as 0
+
+## Your Task
+
+Please analyze this situation and provide a comprehensive response in the following structure:
+
+### Part 1: Root Cause Analysis
+
+First, analyze why the LLM is labeling these 25 utterances as soundboarding (1) when humans consistently label them as 0. Consider:
+- What patterns or linguistic features in these utterances might have triggered the LLM's "soundboarding" label?
+- How might the original prompt's guidelines be ambiguous or leading to over-identification?
+- What contextual cues (from supporter-pre and supporter-post) might the LLM be misinterpreting?
+- Are there specific words, phrases, or sentence structures that appear frequently in these misclassified cases?
+
+Provide a detailed analysis of the root causes.
+
+### Part 2: Three Improvement Plans
+
+Based on your analysis, propose THREE distinct plans to improve the prompt. Each plan should:
+
+**Plan 1: [Name/Description]**
+- Specific changes to make to the prompt
+- Rationale for why these changes would address the misclassification issue
+- Expected impact on reducing false positives
+
+**Plan 2: [Name/Description]**
+- Specific changes to make to the prompt
+- Rationale for why these changes would address the misclassification issue
+- Expected impact on reducing false positives
+
+**Plan 3: [Name/Description]**
+- Specific changes to make to the prompt
+- Rationale for why these changes would address the misclassification issue
+- Expected impact on reducing false positives
+
+Each plan should take a different approach (e.g., one might focus on clarifying definitions, another on adding negative examples, another on emphasizing context).
+
+### Part 3: Plan Recommendation
+
+Compare the three plans and recommend which one you believe would be most effective. Explain:
+- Why this plan is superior to the others
+- What combination of elements from different plans might work best
+- Any potential risks or limitations of the recommended approach
+
+### Part 4: Final Improved Prompt
+
+Provide the complete, revised prompt that incorporates your recommended improvements. The prompt should:
+- Maintain the original structure and format
+- Clearly address the identified issues
+- Be ready to use for the annotation task
+- Include all necessary components (definition, guidelines, examples, output format)
+- **IMPORTANT**: The output format should be a continuous score between 0 and 1 (not binary 0/1), where:
+  - 0.0 means definitely not soundboarding
+  - 1.0 means definitely soundboarding
+  - Values closer to 1 indicate higher likelihood of soundboarding
+  - Values closer to 0 indicate lower likelihood of soundboarding
+  - The score should reflect the degree/confidence of soundboarding presence
+
+### Part 5: Thinking Process
+
+Document your complete thinking process throughout this analysis:
+- How you identified patterns in the misclassified cases
+- Your reasoning for each proposed change
+- Trade-offs you considered
+- Why you ultimately chose the recommended approach
+
+## Output Format
+
+Please structure your response as follows:
+
+```
+=== PART 1: ROOT CAUSE ANALYSIS ===
+
+[Your detailed analysis here]
+
+=== PART 2: THREE IMPROVEMENT PLANS ===
+
+**Plan 1: [Name]**
+[Description and changes]
+
+**Plan 2: [Name]**
+[Description and changes]
+
+**Plan 3: [Name]**
+[Description and changes]
+
+=== PART 3: PLAN RECOMMENDATION ===
+
+[Your recommendation and reasoning]
+
+=== PART 4: FINAL IMPROVED PROMPT ===
+
+[Complete revised prompt]
+
+=== PART 5: THINKING PROCESS ===
+
+[Your complete thinking process]
+```
+
+## Important Notes
+
+- Focus on reducing false positives (cases labeled as 1 by LLM but 0 by humans)
+- Maintain the prompt's ability to correctly identify true soundboarding cases
+- Consider the conversational context when making recommendations
+- Be specific and actionable in your suggestions
+- Ensure the improved prompt is clear, unambiguous, and easy for an LLM to follow
+- **Output Format Requirement**: The improved prompt must output a continuous score between 0.0 and 1.0 (not binary 0/1), representing the likelihood/degree of soundboarding. Examples: 0.0, 0.2, 0.5, 0.7, 0.9, 1.0
+
+Please begin your analysis. Here is the table of 25 misclassified cases:
+
+
+Index: 1.5
+Seeker Utterance: it's almost depleted, been out of work now for nearly 9 months but still can't get unemployment support because of the property that I cannot get rid off else I will declared bankrupt by the mortgage lender
+Supporter Before: Are your family being supportive of your situation?
+Supporter After: Perhaps bankruptcy might not be a bad option? You would be eligible for some help then at least.
+LLM Label: 1
+Human Annotator 1: 0
+Human Annotator 2: 0
+---
+
+Index: 2.3
+Seeker Utterance: I am badly in need of a haircut due to the pandemic...my short layered hair is now shoulder length shag lol...I hate the way I look right now and it gets me down.
+Supporter Before: Hell, How can I help?
+Supporter After: Initially, I used to feel like that and never shared my camera but I know I can do all the time.
+LLM Label: 1
+Human Annotator 1: 0
+Human Annotator 2: 0
+---
+
+Index: 2.4
+Seeker Utterance: oh really? how long did it take you to get up the nerve....its been months and months of mic only for me lol...and the silly thing is the people i'm zooming with aren't particularly attractive so I shouldn't feel ashamed.
+Supporter Before: Initially, I used to feel like that and never shared my camera but I know I can do all the time.
+Supporter After: When I saw many people were sharing camera and they didnt care about anything - few sitting in room full of mess but they dint care.
+LLM Label: 1
+Human Annotator 1: 0
+Human Annotator 2: 0
+---
+
+Index: 2.10
+Seeker Utterance: Hello
+Supporter Before: (none)
+Supporter After: Hell, How can I help?
+LLM Label: 1
+Human Annotator 1: 0
+Human Annotator 2: 0
+---
+
+Index: 2.12
+Seeker Utterance: its hard I'm getting older now (50's) and its hard seeing my appearance go downhill. But at least it's happening with my other friends too lol. Gravity is a bitch!
+Supporter Before: no problem - practice always helps. Start small and then go big.
+Supporter After: I am nearly 50 as well. People over 50s looks better and I am sure your appearance is good as well. It is just thinking.
+LLM Label: 1
+Human Annotator 1: 0
+Human Annotator 2: 0
+---
+
+Index: 2.15
+Seeker Utterance: You know you're right there
+Supporter Before: It is all inside and outside appearance doesnt matter
+Supporter After: All people over 50s are graceful - honest opinion.
+LLM Label: 1
+Human Annotator 1: 0
+Human Annotator 2: 0
+---
+
+Index: 4.1
+Seeker Utterance: feeling really stressed out and exhausted trying to find a job in a small town
+Supporter Before: (none)
+Supporter After: I understand how frustrating it can be, especially with COVID turning our world upside down!
+LLM Label: 1
+Human Annotator 1: 0
+Human Annotator 2: 0
+---
+
+Index: 4.3
+Seeker Utterance: thank you for that. i just wish i either had more hours or made more at a time. working part time just isnt cutting it.
+Supporter Before: I hope you heard that major pharma companies have tested vaccines which are 90-95 % effective! Given the current advancement in technology, it is a great news.
+Supporter After: I understand. Part time or reduced hours can be a source of concern.
+LLM Label: 1
+Human Annotator 1: 0
+Human Annotator 2: 0
+---
+
+Index: 4.5
+Seeker Utterance: and i desperately need to move out of the situation that i am in. but cant do it with my current level of income.
+Supporter Before: I understand. Part time or reduced hours can be a source of concern.
+Supporter After: We just need to trust them to bring the vaccine to the public. I hope in due time they will publish their detailed research and development papers.
+LLM Label: 1
+Human Annotator 1: 0
+Human Annotator 2: 0
+---
+
+Index: 4.7
+Seeker Utterance: i have been looking for work from home jobs right and left
+Supporter Before: Regarding your situation, have you tried a secondary source of income? Like becoming a delivery driver or an order taker?
+Supporter After: Ok. I suppose you can try online jobs. One of my friends lives outside the city and is a part time online order taker for Pizza Hut.
+LLM Label: 1
+Human Annotator 1: 0
+Human Annotator 2: 0
+---
+
+Index: 5.2
+Seeker Utterance: I am worried that COVID-19 has made me depressed. I am usually a well mannered, even personality but I find myself impatient and possibly getting depressed.
+Supporter Before: I good, how are you feeling?
+Supporter After: So you think that COVID-19 has made you depressed? Could there be anything else that could be bothering you?
+LLM Label: 1
+Human Annotator 1: 0
+Human Annotator 2: 0
+---
+
+Index: 5.5
+Seeker Utterance: I agree. As I deal with more and more power, there seems to be more politics.
+Supporter Before: Change is a good thing though as it makes us stronger as people. Do you have any hobbies/interests?
+Supporter After: Sometimes some of the best things we can do is t get out and away from all the things that WE as people have created. Get into the woods and throw a ball around.
+LLM Label: 1
+Human Annotator 1: 0
+Human Annotator 2: 0
+---
+
+Index: 5.8
+Seeker Utterance: Yeah. How do you cope with your stresses? I find myself drinking more than I want now too.
+Supporter Before: I understand, especially having the remote learning going on, it is hard to get away from work and school.
+Supporter After: I try to, I love packing a day back with some easy snacks, and going out for a hike through the woods. Sometimes I use the state trails but sometimes I just go out and make my own new trail.
+LLM Label: 1
+Human Annotator 1: 0
+Human Annotator 2: 0
+---
+
+Index: 5.9
+Seeker Utterance: That's fun. I try to get out once a month for a nice hike. We did the Indiana Dunes last month and that was good. With the snow coming, it might be more snow shoeing moving forward.
+Supporter Before: I try to, I love packing a day back with some easy snacks, and going out for a hike through the woods. Sometimes I use the state trails but sometimes I just go out and make my own new trail.
+Supporter After: Well, drinking doesn't really deal with it. It only pushes things off for later to deal with. Exercising is a really good way to deal with that stress.
+LLM Label: 1
+Human Annotator 1: 0
+Human Annotator 2: 0
+---
+
+Index: 5.1
+Seeker Utterance: Hi, how are you?
+Supporter Before: (none)
+Supporter After: I good, how are you feeling?
+LLM Label: 1
+Human Annotator 1: 0
+Human Annotator 2: 0
+---
+
+Index: 5.11
+Seeker Utterance: Yeah. In chicago, we have a lot of snow but also some good state trails. It's been helpful, especially when this first started. I live across the street from a forest preserve, which was a life saver.
+Supporter Before: That's true! I used to live in Ohio, and the weather was amazing this time of year.
+Supporter After: Are you able to do more workouts? Sometimes I have found that running (which I hate doing) makes me feel so much better in times of high stress. Running also releases endorphins into the body which will help to alleviate some of the drinking/stress.
+LLM Label: 1
+Human Annotator 1: 0
+Human Annotator 2: 0
+---
+
+Index: 5.12
+Seeker Utterance: I am trying to do more. I work out daily and that isgood but I am trying yoga for the second workout.
+Supporter Before: Are you able to do more workouts? Sometimes I have found that running (which I hate doing) makes me feel so much better in times of high stress. Running also releases endorphins into the body which will help to alleviate some of the drinking/stress.
+Supporter After: Is there anything else I can help you with?
+LLM Label: 1
+Human Annotator 1: 0
+Human Annotator 2: 0
+---
+
+Index: 6.2
+Seeker Utterance: Yes, I moved away and I thought I would be happier on my own but now all I do is think about them and miss them. Nobody ever has time to talk on the phone so I am all alone.
+Supporter Before: Why are you in a town all alone?
+Supporter After: Do you have the option to move back? Because family is the most important thing at the end of the day
+LLM Label: 1
+Human Annotator 1: 0
+Human Annotator 2: 0
+---
+
+Index: 6.8
+Seeker Utterance: No, I am too far away to stop by or go for the weekend. I would have to plan a whole trip and I cant really afford it yet. My brother knew that the pets were mine but he demanded that he keep them there and I didnt want to fight with him so I said fine.
+Supporter Before: Have you visited them ever since?
+Supporter After: If they are your pets you should be able to keep them but you did the right thing as to not argue with your brother and your parents could help you look after them
+LLM Label: 1
+Human Annotator 1: 0
+Human Annotator 2: 0
+---
+
+Index: 7.4
+Seeker Utterance: It some sort of way, I lost my job because of it and my girlfriend is not talking to me as well now...
+Supporter Before: It sounds like the pandemic has caused you to feel fear and have anxiety, is that right?
+Supporter After: It sounds like you are under a lot of stress and don't have a way to realse that stress.
+LLM Label: 1
+Human Annotator 1: 0
+Human Annotator 2: 0
+---
+
+Index: 7.6
+Seeker Utterance: I can try, but I don't see how it will help me to find a job. I barely can sleep at nights
+Supporter Before: You can try yoga, or doing activities that cause you to feel relax.
+Supporter After: Getting a lot of rest or releasing stress will improve your fear and anxiety, which will lead to a more positive attitude to finding a job. Having a more postiive attuide well help you find a job.
+LLM Label: 1
+Human Annotator 1: 0
+Human Annotator 2: 0
+---
+
+Index: 8.1
+Seeker Utterance: Today is okay, i guess. I'm just stressed.
+Supporter Before: (none)
+Supporter After: Is there a general problem that you would like to talk about? I am more than happy to listen.
+LLM Label: 1
+Human Annotator 1: 0
+Human Annotator 2: 0
+---
+
+Index: 8.5
+Seeker Utterance: I don't mind retaking it, really
+Supporter Before: I am sorry to hear that but try not to panic, just failing one class is not the end of the world. How do you feel about retaking it?
+Supporter After: Ah so you feel that this is going to be severely disruptive to your plans for this winter break?
+LLM Label: 1
+Human Annotator 1: 0
+Human Annotator 2: 0
+---
+
+Index: 8.8
+Seeker Utterance: yeah. that's another thing. I havent told my therapist or even my parents yet
+Supporter Before: Ah .. in that case is it possible to talk to your doctor? They might be able to get a special allowance for you given your personal circumstances
+Supporter After: I think that it would be a really good idea if you talked to them about it. They will probably be a lot more understanding than you might think
+LLM Label: 1
+Human Annotator 1: 0
+Human Annotator 2: 0
+---
+
+Index: 8.9
+Seeker Utterance: that i failed
+Supporter Before: Ah .. in that case is it possible to talk to your doctor? They might be able to get a special allowance for you given your personal circumstances
+Supporter After: I think that it would be a really good idea if you talked to them about it. They will probably be a lot more understanding than you might think
+LLM Label: 1
+Human Annotator 1: 0
+Human Annotator 2: 0
+---
+

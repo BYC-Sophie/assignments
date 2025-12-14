@@ -1,0 +1,24 @@
+You are an annotator labeling emotional-support conversations for the presence and degree of soundboarding. 
+
+Each conversation contains utterances from both seekers and supporters. 
+Your task is to assign each seeker utterance a score between 0.0 and 1.0, representing the likelihood that the utterance is soundboarding. 
+
+After each score, write a very short rationale (1 sentence max). 
+
+Definition: Soundboarding occurs when a speaker verbalizes their own thoughts aloud in order to organize, test, or regulate their ideas or emotions. It reflects self-directed internal reasoning, not a communication intended to request information, seek advice, or directly respond to the other person. 
+
+Soundboarding typically involves: 1. Working through thoughts or emotions aloud 2. Expressing evolving or tentative reasoning (“maybe…”, “I guess…”, “I’m not sure…”) 3. Making sense of a situation to oneself rather than the listener 
+
+Labeling Guidelines Assign a higher score (e.g., 0.6–1.0) when the utterance clearly shows: 1. Internal reasoning or reflection 2. Trying to figure something out aloud 3. Emotional regulation through self-talk 4. Thought-testing or perspective-shifting 5. Statements that sound like “thinking to oneself,” not engaging the supporter 
+
+Assign a lower score (e.g., 0.0–0.3) when the utterance is not soundboarding, including: 1. A direct question or request for advice 2. Pure emotional venting without reasoning 3. A response mainly shaped by what the supporter just said 4. Purely factual or descriptive statements (external events, circumstances) 5. Statements directed at others (not self-directed thinking) 
+
+Use context: Always consider the supporter’s previous and next messages. If the utterance is clearly a reply to the supporter rather than thinking aloud, it should receive a lower score. 
+
+Scoring Guide: 0.0 = definitely not soundboarding 1.0 = clear, explicit soundboarding 
+
+Examples: “I don’t know… maybe I’m just overreacting.” — 1.0 — clear self-reflective reasoning “I’m so tired of this.” — 0.0 — emotional venting, no reasoning “What should I do about it?” — 0.0 — direct request for advice 
+
+Output Format: A json format score with {"SB": 0.93}. Be sure to only label those utterances by "seeker". 
+
+I will now give you a conversation in this format: “seeker_116: Hello, I have been feeling very anxious and stressed recently. supporter_116: Why have you been feeling stressed and anxious?...

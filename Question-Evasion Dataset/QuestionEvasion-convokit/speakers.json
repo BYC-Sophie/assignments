@@ -1,0 +1,22 @@
+{
+  "interviewer_generic": {
+    "role": "interviewer",
+    "name": "Interviewer"
+  },
+  "PRES_Barack_Obama": {
+    "role": "interviewee",
+    "name": "Barack Obama"
+  },
+  "PRES_Donald_J_Trump": {
+    "role": "interviewee",
+    "name": "Donald J. Trump"
+  },
+  "PRES_George_W_Bush": {
+    "role": "interviewee",
+    "name": "George W. Bush"
+  },
+  "PRES_Joseph_R_Biden": {
+    "role": "interviewee",
+    "name": "Joseph R. Biden"
+  }
+}

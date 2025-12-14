@@ -1,0 +1,269 @@
+Conversation 1:
+
+1. seeker_5: could be better — 0 — brief emotional venting without reasoning
+ supporter_5: I am sorry to hear that. Would you like to talk about anything specific? — 0 — invitation to elaborate
+2. seeker_5: thank you, I just don't know what else to do to get a job? — 0 — direct request for advice
+ supporter_5: So you're unemployed? I am sorry to hear that. Are you prepared to take jobs that are below your usual level just to get by for a while? — 0 — supportive inquiry
+3. seeker_5: have tried that but don't even get an interview — 0 — factual frustration
+ supporter_5: It's a very difficult time to be out of work, I know. I hope that there is something out there for you. Have you tried employment agencies? — 0 — advice and question
+4. seeker_5: yes, I do not qualify for unemployment because I have savings above the min threshold and I also have rental property, which is currently loss making and I can't sell it because it's 30% below market value — 0 — factual explanation of situation
+ supporter_5: Well, on the plus side at least you do have savings .. hopefully this can give you some security for a while — 0 — reassurance
+ supporter_5: Are your family being supportive of your situation? — 0 — question
+5. seeker_5: it's almost depleted, been out of work now for nearly 9 months but still can't get unemployment support because of the property that I cannot get rid off else I will declared bankrupt by the mortgage lender — 1 — reflective reasoning about difficult financial trap
+ supporter_5: Perhaps bankruptcy might not be a bad option? You would be eligible for some help then at least. — 0 — suggestion
+6. seeker_5: family is not being fully supported compared to when I had full time job. had to get rid of one car and other things just to get by — 0 — factual account of changes
+7. seeker_5: but the cost is 7 years of my future??? — 1 — self-reflective expression of fear and consequence evaluation — 1 — follow-up reflection – 1 – They are murmuring a self-directed reasoning here, where they try to soundboard the consequence of the supporter’s suggestion of bankruptcy. They are doing an internal evaluation this way.
+
+ supporter_5: So you feel as though you have been working hard all your life and now you need help and support and are not getting it — 0 — paraphrasing for empathy
+8. seeker_5: very well put. seems i am being penalised for working hard, saving and investing? I should have been on more holidays and lived all the way above my means! — 1 — reflective reasoning and self-directed commentary  — 1 — “I should have …” retrospective self reflection – 1 – Here, the seeker is expressing the irony of the situation, where we could interpret it as either self-directed reasoning or a function of emotional regulation. I think this is soundboarding because it is neither pure emotional venting without reasoning nor directly asking for supporter’s thought
+
+ supporter_5: I know how you feel .. I sometimes feel I would have been better off if I'd just not bothered working! — 0 — empathetic self-disclosure
+ supporter_5: Anyway thank you for talking and I really hope things go better for you in the future :) — 0 — supportive closure
+9. seeker_5: thank you for your help. — 0 — gratitude
+ supporter_5: You're welcome :) You need to press quit first and take the survey before I can :) — 0 — logistical instruction
+ supporter_5: hello? :) — 0 — conversational prompt
+10. seeker_5: say i can't quit until we have exchanged 10 messages or spent 15min. I think that has all been done, yes? — 0 — procedural clarification
+ supporter_5: Please can you quit and take the survey. I cannot do it till you do and neither of us will get paid if I have to quit. — 0 — logistical request
+ supporter_5: Yes it's been done :) — 0 — confirmation
+ supporter_5: Please can you quit. I have other things to do and if I have to leave because you did not end this neither of us gets anything. It can only be ended your side. — 0 — logistical request
+
+Conversation 2:
+1.seeker_1001: Hello — 0 — greeting, no reflection
+ supporter_1001: Hell, How can I help? — 0 — inquiry
+2. seeker_1001: I'm ashamed of how I look which makes me anxious when I have to attend zoom meetings, I have to leave my camera off. It feels like cheating! — 1 — self-reflective reasoning about anxiety and self-image — 1 — building on previous self-disclosure
+3. seeker_1001: I am badly in need of a haircut due to the pandemic...my short layered hair is now shoulder length shag lol...I hate the way I look right now and it gets me down. — 1 — reflective self-evaluation of appearance and feelings
+ supporter_1001: Initially, I used to feel like that and never shared my camera but I know I can do all the time. — 0 — self-disclosure from supporter
+4. seeker_1001: oh really? how long did it take you to get up the nerve....its been months and months of mic only for me lol...and the silly thing is the people i'm zooming with aren't particularly attractive so I shouldn't feel ashamed. — 1 — reflective acknowledgment of irrational self-judgment
+ supporter_1001: When I saw many people were sharing camera and they didnt care about anything - few sitting in room full of mess but they dint care. — 0 — supportive sharing
+5. seeker_1001: in person i am much more confidant...would like to care less. — 1 — self-reflective desire for change  — 1 — self-reflective follow up about what they would like – 1 – ? To me, it fell like the seeker giving a response to the supporter’s previous comment about other people “not caring”, but it might still be soundboarding because it has the feature of self reflective reasoning
+6. seeker_1001: care less about being on cam i mean — 1 — clarification of self-directed thought  – 1 – self reflective reasoning where they are more obviously soundboarding
+7. seeker_1001: some people look so comfortable and relaxed! I just get seized up with anxiety — 1 — reflective acknowledgment of emotional reaction — 1 — self-reflective about emotional state; comparative to others 
+ supporter_1001: correct - it is just our mind thing which stops us not to share but once you start sharing you will feel confident. — 0 — reassurance and advice
+ supporter_1001: Once you dont care what people think you will be more confident. — 0 — motivational advice
+ supporter_1001: You will also be used to it — 0 — reassurance
+8. seeker_1001: maybe i should take the plunge...it seems so silly to me because logically i am not in these meetings to impress anyone — 1 — reflective reasoning about internal contradiction — 1 — self reflective – 1 – Seeker is doing self-directed reasoning aloud and organizing their thoughts. The utterance also includes the hedging features.
+9. seeker_1001: maybe i'll pick the least threatening meeting and start there...one that's a smaller group — 1 — self-directed planning and reasoning — 1 — back-to-back self-reflection – 1 – Same reason as the last utterance. The tone matches my impression of soundboarding better here.
+ supporter_1001: You can also try different backgrounds in Zoom which will improve the way you will look. — 0 — practical suggestion
+10. seeker_1001: oh really? I haven't experimented with that. maybe I can get a friend to practise that with me — 1 — reflective planning to test a solution
+11. seeker_1001: that's a good idea — 1 — affirmation of self-directed plan — 1 — follow up reflection about the idea being good – 1 – Follow up on their own thought
+
+ supporter_1001: Correct - you can start with your colleagues and then slowly you will start sharing in other meetings. — 0 — encouragement
+ supporter_1001: no problem - practice always helps. Start small and then go big. — 0 — advice
+12. seeker_1001: its hard I'm getting older now (50's) and its hard seeing my appearance go downhill. But at least it's happening with my other friends too lol. Gravity is a bitch! — 1 — self-reflective acknowledgment with humor
+13. seeker_1001: what age group are you in? — 0 — social question
+ supporter_1001: I am nearly 50 as well. People over 50s looks better and I am sure your appearance is good as well. It is just thinking. — 0 — reassurance
+14. seeker_1001: hmm yes....my attitude and self defeating thoughts....i need to work on that, thank you for your encouragement — 1 — self-reflective realization about mindset — 1 — self reflection about what the person says they need to work on – 1 – Self reflection on things they need to work on
+ supporter_1001: It is all inside and outside appearance doesnt matter — 0 — reassurance
+15. seeker_1001: You know you're right there — 1 — acknowledgment of self-reflective agreement
+ supporter_1001: All people over 50s are graceful - honest opinion. — 0 — reassurance
+16. seeker_1001: maybe it's like a lot of things for me, that always seem worse until i try them, then i'm like "what was I so worried about" — 1 — reflective generalization and realization — 1 — self reflection: “[things] always seem worse until I try them…” – 1 – Self-directed reasoning that connects their situation to the past pattern of behavior. They are more self reflecting than responding to the supporters here.
+
+ supporter_1001: No worries about anything and enjoy life. — 0 — advice
+ supporter_1001: 100% agreed - Initially, all looks difficult but by the time all becomes easy and we become so used to it. — 0 — reassurance
+17. seeker_1001: first world pandemic problems lol — 0 — humor, no reasoning
+18. seeker_1001: i can't wait to have meetings in person again, so much better than zoom — 0 — preference statement — 1 — reflection after initial statement
+ supporter_1001: yes this will be over soon and we are also used to it. — 0 — reassurance
+19. seeker_1001: but i'm grateful we have zoom in the meantime, zoom's better than a conference call — 0 — factual reflection
+ supporter_1001: 100% agreed - In person is always way better than remote — 0 — agreement
+20. seeker_1001: amen to that....it being over soon....we have all had to be so very patient — 0 — hopeful remark
+21. seeker_1001: thankyou for your help today. so I will first practise with a friend, and play around with backgrounds. then I will take the plunge in a low-key small meeting and see how it goes — 1 — reflective planning and self-directed decision — 1 — person expressing gratitude and reflecting in a repeat response  – 1– repeating their own response for reflection and expressing gratitude
+
+ supporter_1001: I am sure it will be under control before end of 2021 - Optimistic. — 0 — optimistic statement
+22. seeker_1001: yes me too :) — 0 — agreement
+23. seeker_1001: ok thank you again, stay safe and be well. appreciate your help! bye — 0 — gratitude and closure
+ supporter_1001: we just have to wait and follow all the guidelines. — 0 — general advice
+24. seeker_1001: indeed — 0 — agreement
+ supporter_1001: pls let me know if you need any help on sharing camera — 0 — offer of further help
+Conversation 3:
+1.seeker_523: Im so depressed — 0 — emotional venting without reasoning
+ supporter_523: I am really sorry to hear that. — 0 — empathy
+2. seeker_523: It just wont end — 0 — expression of hopelessness, not reflective
+ supporter_523: What is making things so hard? — 0 — inquiry
+3. seeker_523: Now Im in quaritine again cant leave the house — 0 — factual complaint
+4. seeker_523: I dont have anyone to tak to — 0 — statement of isolation  — 1 — follow up response with reflection
+
+ supporter_523: I definitely understand that. I also have been having a hard time in quarantine. — 0 — empathy and self-disclosure
+5. seeker_523: Plus my work hours have been cut — 0 — factual statement
+ supporter_523: Do you have people you can talk to digitally? Friends, family? — 0 — question
+6. seeker_523: I have family but they live on the west coast im on the eastcoast — 0 — factual information
+ supporter_523: I get that. It can be really frustrating when you feel alone and like you've got no one to talk to. Especially when 2020 seems to be dumping things on you. — 0 — supportive reflection
+ supporter_523: What have you been doing to pass the time? Is there anything that you've found that makes you feel better? — 0 — inquiry
+7. seeker_523: So my money is now running low and rent is coming due — 0 — factual problem description — 1 — disregarding previous message and continuing to self disclose and reflect
+8. seeker_523: I like to read — 0 — factual statement
+ supporter_523: That can be handy! — 0 — acknowledgment
+9. seeker_523: I like to walk on the beach — 0 — factual statement  — 1 — continuing to disclose and self reflect without prompting
+
+ supporter_523: Is that something you can do with regularity? Getting out and walking? — 0 — question
+ supporter_523: I know that I've had good luck battling my depression by just finding ways to not be at home. Hiking, going for walks, going for drives... — 0 — advice and sharing
+10. seeker_523: Yes I live on the beach but its so cold right now I cant even do that. I feal so isolated — 1 — reflective acknowledgment of isolation and limitation
+11. seeker_523: Im going to do that tomorrow — 1 — self-motivated planning and reasoning — 1 — self resolve to walk without prompting
+
+
+ supporter_523: Good! It's hard to start, but it's a good way to start. How far do you plan on going? — 0 — encouragement
+12. seeker_523: Im going to bundle up and go to the beach. Probably walk down to the pier 1 mile — 1 — self-directed plan and reasoning aloud
+ supporter_523: That will be good. Make sure you can take some time and really appreciate not being in the house. — 0 — advice
+ supporter_523: Is there any music or podcats you can listen to while out? — 0 — question
+13. seeker_523: Thats good advice, Im feeling a little better — 0 — acknowledgment of emotional improvement
+14. seeker_523: I can take my iphone for music — 0 — factual response – 1 – this can potentially be soundboarding since this is a self-directed thought where they verbalized a solution for themselves, following up to the last utterance of their own. 
+ supporter_523: I am glad. Practicing mindfulness can really help, and help put things in perspective. Often times we build things up to be even worse than they already are. Being able to be grateful for what's around can help, without diminishing the issues that you are facing. — 0 — advice
+15. seeker_523: Thats good advice, thanks I think you helped me — 0 — gratitude
+ supporter_523: Remembering that it's okay to be sad and depressed, as much as it sucks, can be helpful in reframing. It's a rough time for everyone and you definitely are not alone. — 0 — reassurance
+16. seeker_523: Thats true, it just seems like I am alone cause well I am lol — 1 — self-reflective humor and emotional reasoning acknowledgement following their self-reflection of the feeling of isolation could also be seen as the features of emotional regulation
+ supporter_523: I absolutely get it. I work from home right now so it's just me all day. Sometimes, I literally only talk to my cats. I am a crazy cat lady. — 0 — self-disclosure
+17. seeker_523: Cats are cool — 0 — brief response
+ supporter_523: I had a whole cry and freak out moment when part 2 of quarantine hit recently. I wholeheartedly understand. — 0 — supporter self-disclosure
+ supporter_523: Do you have any pets? — 0 — question
+18. seeker_523: I have a Russian Blue cat ssmart very smart cat — 0 — factual description
+ supporter_523: Smart cats are the best. They know when you need cuddles, which it sounds like you do! Also means you aren't alone. ;) Cat needs ya! As much as they don't want to admit it. — 0 — reassurance
+19. seeker_523: He's my buddy for sure. Makes me happy to think of him — 1 — self-reflective recognition of emotional support  — 1 — “makes me happy to think of him” seems self reflective without prompting to think about what makes the person happy
+ supporter_523: If you are healthy/feel comfortable with going out, you could consider volunteering at an animal shelter. You'd get to interact with some folks, some animals, and add something to the resume. I don't know if you are likely to get hours back at work or what you do, but that could be fun! — 0 — advice
+20. seeker_523: Thats a good idea I'll look into it. Well we better wrap this hit up? — 0 — acknowledgment and closure attempt
+ supporter_523: I believe it needs to be a minimum of 20 minutes and we are at 17 right now. — 0 — logistical clarification
+ supporter_523: For the max that is, lol. — 0 — small talk
+21. seeker_523: Oh sorry thought it was 15 minutes. So where are you at? — 0 — casual question
+ supporter_523: West Coast of all things! WA st, so lots of hiking for me. It's been helping so much. — 0 — self-disclosure
+22. seeker_523: I moved from Renton to here in Myrtle Beach SC — 0 — factual statement
+ supporter_523: Oh hey! So all of your family is here then. What prompted the move? — 0 — question
+23. seeker_523: Got real tired of the weather and people there — 0 — factual explanation
+24. seeker_523: Everyone friendly here and actually talk to one another — 0 — factual observation— 1 — follow up message that includes additional detail. Potentially indicative of further reflection
+ supporter_523: Ha. I believe that. I was born and raised in Puyallup, so it's all I know. i couldn't ever think of leaving. — 0 — self-disclosure
+ supporter_523: Welp, thanks for the conversation, I hope I helped. Cuddle the cat, enjoy the beach, and remember this is all temporary! — 0 — supportive closure
+25. seeker_523: Have you ever left the state — 0 — question
+ supporter_523: lol, I have. — 0 — casual response
+26. seeker_523: k bye — 0 — farewell
+Conversation 4:
+
+1.seeker_632: feeling really stressed out and exhausted trying to find a job in a small town — 1 — self-reflective expression of emotional and situational struggle
+supporter_632: I understand how frustrating it can be, especially with COVID turning our world upside down! — 0 — empathy
+supporter_632: May I please know what field you are in? — 0 — inquiry
+2.seeker_632: yea that has really put a damper on a lot of my job searches. currently im in the medical field. i serve as an in home health care provider. but that is only part time. — 0 — factual description of situation
+supporter_632: First fall, I tip my hat to you! It is because of people like you, our frontline heroes, that we are at least able to put some fight up against the corona demon! — 0 — praise
+supporter_632: I hope you heard that major pharma companies have tested vaccines which are 90-95 % effective! Given the current advancement in technology, it is a great news. — 0 — informational comment
+3.seeker_632: thank you for that. i just wish i either had more hours or made more at a time. working part time just isnt cutting it. — 1 — reflective reasoning about financial stress and desire for stability
+4.seeker_632: it is good that they are making progress on the vaccines. i just question their testing and how they are doing it. — 1 — reflective reasoning and critical thought — 1 — further reflection in a follow up message (glad progress is being made, but curious about methods) – 1 – the “i just question their…” It feels like a thought aloud where they express their own skepticism to organize their feelings about the news. It also involved self-directed reasoning
+supporter_632: I understand. Part time or reduced hours can be a source of concern. — 0 — empathy
+5.seeker_632: and i desperately need to move out of the situation that i am in. but cant do it with my current level of income. — 1 — reflective statement connecting emotion and circumstance
+supporter_632: We just need to trust them to bring the vaccine to the public. I hope in due time they will publish their detailed research and development papers. — 0 — general comment
+supporter_632: Regarding your situation, have you tried a secondary source of income? Like becoming a delivery driver or an order taker? — 0 — suggestion
+6.seeker_632: in the town where i live there are no services like uber eats or door dash. — 0 — factual limitation
+7.seeker_632: i have been looking for work from home jobs right and left — 1 — self-reflective expression of ongoing effort
+supporter_632: Ok. I suppose you can try online jobs. One of my friends lives outside the city and is a part time online order taker for Pizza Hut. — 0 — suggestion
+supporter_632: All you need is phone and internet. You will need to take customer's orders and input it in Pizza Hut's order system. — 0 — informational
+supporter_632: is this something you can explore doing? — 0 — question
+8.seeker_632: online order taker? how do you sign up for that? — 0 — information-seeking question
+supporter_632: Great! You can search for "Pizza Hut online order taking job". The first result will lead you to the company that manages these jobs. — 0 — instruction
+9.seeker_632: highly possible, have a phone and a high speed internet connection. — 0 — factual confirmation
+supporter_632: Once you complete training, the pay is good especially during weekends, where peak load hits. — 0 — advice
+10.seeker_632: thank you. i had not even heard of this. i will apply in a min when we are done talking. i apprecieate it. — 0 — gratitude and plan
+supporter_632: I am glad I could be of help. I wish you all the best! — 0 — supportive closure
+11.seeker_632: thank you!!! :) — 0 — gratitude
+
+Conversation 5:
+1.seeker_324: Hi, how are you? — 0 — greeting, not reflective
+ supporter_324: I good, how are you feeling? — 0 — question
+2. seeker_324: I am worried that COVID-19 has made me depressed. I am usually a well mannered, even personality but I find myself impatient and possibly getting depressed. — 1 — self-reflective reasoning about emotional change
+ supporter_324: So you think that COVID-19 has made you depressed? Could there be anything else that could be bothering you? — 0 — probing question
+3. seeker_324: Possibly... I think the remote learning of my kids and the iability to leave the house or go out, is making me sadder than normal. — 1 — self-reflective reasoning on sources of distress – 1 – We see some traits of soundboarding like hedging, where they are responding to the supporter but in the way thinking aloud to discover the answer.
+ supporter_324: I completely understand where you are coming from there. I feel like remote learning takes away from some of the social aspects of life that need to happen in order for a healthy life. — 0 — empathetic statement
+4. seeker_324: I am also worried that I am not playing the political game well. I feel like I am too straight forward, not rude, but I should play politics more to get ahead. — 1 — introspective evaluation of self and career strategy   — 1 — “I am also…” indicating an addendum to the initial thought with more self reflection – 1 – Here is more of a self-directed reasoning because the seeker is verbalizing an internal conflict and evaluating their behavior, I can say it’s soundboarding because it’s not directly responding to the supporter
+
+ supporter_324: I understand that as well. It seems that no matter how politically involved we are, things are always changing. — 0 — general empathy
+ supporter_324: Change is a good thing though as it makes us stronger as people. Do you have any hobbies/interests? — 0 — advice and question
+5. seeker_324: I agree. As I deal with more and more power, there seems to be more politics. — 1 — reflective acknowledgment of professional complexity
+6. seeker_324: Yes, I like to watch movies and workout. THat's about it. with a wife and 2 kids, I don't have more time. — 0 — factual explanation  — 1 — discloses and reflects on lack of time in a follow up message
+
+ supporter_324: Sometimes some of the best things we can do is t get out and away from all the things that WE as people have created. Get into the woods and throw a ball around. — 0 — advice
+7. seeker_324: That would be nice. Is that what you do when you are stressed or depressed? — 0 — inquiry to supporter
+ supporter_324: I understand, especially having the remote learning going on, it is hard to get away from work and school. — 0 — empathetic observation
+8. seeker_324: Yeah. How do you cope with your stresses? I find myself drinking more than I want now too. — 1 — self-reflective admission of unhealthy coping behavior
+ supporter_324: I try to, I love packing a day back with some easy snacks, and going out for a hike through the woods. Sometimes I use the state trails but sometimes I just go out and make my own new trail. — 0 — personal disclosure
+9. seeker_324: That's fun. I try to get out once a month for a nice hike. We did the Indiana Dunes last month and that was good. With the snow coming, it might be more snow shoeing moving forward. — 1 — reflective reasoning on activity adaptation
+ supporter_324: Well, drinking doesn't really deal with it. It only pushes things off for later to deal with. Exercising is a really good way to deal with that stress. — 0 — advice
+10. seeker_324: Yeah. I have not missed a workout since COVID-19 started. That seems to keep me grounded. — 1 — reflective insight on positive coping mechanism
+ supporter_324: That's true! I used to live in Ohio, and the weather was amazing this time of year. — 0 — casual comment
+11. seeker_324: Yeah. In chicago, we have a lot of snow but also some good state trails. It's been helpful, especially when this first started. I live across the street from a forest preserve, which was a life saver. — 1 — self-reflective description of coping and environment
+ supporter_324: Are you able to do more workouts? Sometimes I have found that running (which I hate doing) makes me feel so much better in times of high stress. Running also releases endorphins into the body which will help to alleviate some of the drinking/stress. — 0 — advice
+12. seeker_324: I am trying to do more. I work out daily and that isgood but I am trying yoga for the second workout. — 1 — self-reflective plan for improvement
+13. seeker_324: Thanks for your help. — 0 — gratitude
+ supporter_324: Is there anything else I can help you with? — 0 — polite follow-up
+
+Conversation 6:
+1.seeker_1125: Hi, I am in a town all alone and far from family. I have been really depressed. — 1 — self-reflective expression of isolation and emotional state
+supporter_1125: Why are you in a town all alone? — 0 — inquiry
+2.seeker_1125: Yes, I moved away and I thought I would be happier on my own but now all I do is think about them and miss them. Nobody ever has time to talk on the phone so I am all alone. — 1 — reflective reasoning about expectations vs. reality
+supporter_1125: Do you have the option to move back? Because family is the most important thing at the end of the day — 0 — question and advice
+3.seeker_1125: No, I was living with my mom and dad but when I moved out my brother got my room. He and I didnt get along so he would never want me to move back into the house with them either. — 0 — factual explanation
+supporter_1125: At this point, you will have to ask your family to make time to talk with you and im sure they will understand if they hear where you are coming from — 0 — advice
+4.seeker_1125: That is a good idea, I can reach out to my mom. Maybe I should write her an email or something? My brother was a bully and so he is a big reason that I moved. My parents encouraged us to fight and argue, it wasn't a very fun place to live. — 1 — self-reflective – 1 – we see self directed reasoning with hedging markers, where the main function being thought organizationreasoning and planning — 1 — “maybe i should…” seems like self reflective soundboarding
+5.seeker_1125: I've always been closer to my mom so she is much more understanding. She helps me pay my monthly bills too. — 0 — factual statement — 1 — reflecting on closer relationship with mother and rarionalizing why
+supporter_1125: Yeah reach out to your mum, and although you fight and argue, they are still your family at the end of the day — 0 — advice and reassurance
+supporter_1125: Thats nice of her :) — 0 — supportive comment
+6.seeker_1125: Yes, that is a good point. I have always heard the blood is thicker than water. — 0 — affirmation
+7.seeker_1125: I have also been upset lately because I had to leave all my pets when I moved out. I left my dog and my cat back at home. — 1 — reflective emotional disclosure — 1 — “I have also…” indicates a follow up reflection  – 1 – A follow up reflection to their own thought “I have also…”
+supporter_1125: Have you visited them ever since? — 0 — inquiry
+8.seeker_1125: No, I am too far away to stop by or go for the weekend. I would have to plan a whole trip and I cant really afford it yet. My brother knew that the pets were mine but he demanded that he keep them there and I didnt want to fight with him so I said fine. — 1 — reflective reasoning about limitations and conflict avoidance
+supporter_1125: If they are your pets you should be able to keep them but you did the right thing as to not argue with your brother and your parents could help you look after them — 0 — reassurance and advice
+9.seeker_1125: Yeah, you are right. Once he let the gate open just so my dog would run away, he says he didn't do it but I know him and he is really mean and vengeful. He would also pull pranks on me that were just cruel. He once told me that my cat was ran over but he was just hiding her at a friends house for a week. — 0 — factual recount of past events — 1 — lots of addendum for reflections and rationalizing: “he would also…”, “he once told me…” etc.
+supporter_1125: Yeah, he doesn't seem very nice, but its good that you don't retaliate negatively — 0 — acknowledgment and praise
+10.seeker_1125: Yeah, I used to be really depressed living there. I haven't thought about why I moved but you are helping me remember that i'm better off now. I am lonely but so much happier not living in the turmoil over there. — 1 — reflective realization and emotional reassessment  – 1 – the “I haven't thought about why I moved... you are helping me remember” is self-directed reasoning or reflection where the seeker explicitly state their process of thought
+supporter_1125: Its a good thing you moved then because at least now you are away from him — 0 — supportive affirmation
+supporter_1125: You should always try to be happy — 0 — advice
+11.seeker_1125: Yep, I am feeling better today. Thank you for listening. Maybe I should just get a new rescue dog or something like that today? I don't want to dwell on my brother or that negativity. I am feeling a lot more hopeful just sharing my feelings. — 1 — reflective  — 1 — “maybe I should…?” seems self reflective self-evaluation and forward planning – 1 – self-directed reasoning and hedging, similar to the last seeker’s utterance.
+
+supporter_1125: Yes its good to not dwell on the past like that. Have a good day :) — 0 — supportive closure
+12.seeker_1125: Thanks! Have a great day too! — 0 — gratitude and farewell
+Conversation 7:
+1.seeker_1223: Good afternoon — 0 — greeting
+ supporter_1223: Good afternoon — 0 — greeting
+2. seeker_1223: I lost my job 1 month ago and I can't find a new one, I have fear and anxiety that soon I will have nothing to pay with for my rent. Would you be able to suggest me how to cope with my fear? — 0 — direct request for advice
+ supporter_1223: I am sadden to hear that. I'm sure if you think positive and try really hard you will find a job and thinking postive will help with your fear and anxiety. — 0 — reassurance and advice
+3. seeker_1223: It's just I feel fear all the time, and now with this pandemic it's really hard to find a job. I have a feelings now that if I fail I have to go back to my country as a loser. — 1 — self-reflective reasoning and expression of internalized fear– 1 – "I have a feelings now that if I fail I have to go back to my country as a loser," is doing thought organization and emotional regulation, where the speaker is verbalizing their internal anxieties and self-evaluation, instead of directly responding to the supporter
+
+ supporter_1223: It sounds like the pandemic has caused you to feel fear and have anxiety, is that right? — 0 — paraphrasing question
+4. seeker_1223: It some sort of way, I lost my job because of it and my girlfriend is not talking to me as well now... — 1 — self-reflective reasoning linking events and emotions
+ supporter_1223: It sounds like you are under a lot of stress and don't have a way to realse that stress. — 0 — empathetic observation
+5. seeker_1223: Ah could be, what could you suggest me to do? — 0 — direct question
+ supporter_1223: You can try yoga, or doing activities that cause you to feel relax. — 0 — suggestion
+6. seeker_1223: I can try, but I don't see how it will help me to find a job. I barely can sleep at nights — 1 — reflective skepticism connecting stress to sleeplessness
+ supporter_1223: Getting a lot of rest or releasing stress will improve your fear and anxiety, which will lead to a more positive attitude to finding a job. Having a more postiive attuide well help you find a job. — 0 — explanation and advice
+7. seeker_1223: Do you think interviewers see that I have a fear and anxiety and that's why I don't get a job? — 0 — direct question seeking validation
+ supporter_1223: Of course they do. They can sense those emotions and take that into consideration when they are interviewing you. — 0 — advice and reassurance
+8. seeker_1223: Oh ok I will try yoga then. If it will not help me what else I can try? — 0 — question and openness to suggestions
+ supporter_1223: You can try to mediate and not focus on such negative things. — 0 — suggestion
+9. seeker_1223: Can I have any medications to intake to easy fear? — 0 — question
+ supporter_1223: I am sure they have those, but of course you will need a doctor's opinion. — 0 — guidance
+10. seeker_1223: yeah I will, Thank you so much for today I feel better now. — 0 — gratitude and emotional closure
+ supporter_1223: Your most welcome. — 0 — polite closure
+
+Conversation 8:
+
+
+1.seeker_123: Today is okay, i guess. I'm just stressed. — 1 — self-reflective acknowledgment of emotional state
+ supporter_123: Is there a general problem that you would like to talk about? I am more than happy to listen. — 0 — open invitation to share
+ 2.seeker_123: Yes, I found out I didnt pass college algebra and my academic advisor is pressuring me to take the class over this winter break in order to graduate on time. — 0 — factual problem description
+ 3.seeker_123: But I have been in new york city all year and my parents just got me tickets to fly home — 0 — factual statement about plans
+4. seeker_123: I really miss them — 1 — emotional reflection on longing and family connection  — 1 — follow up response containing self reflection
+
+ supporter_123: I am sorry to hear that but try not to panic, just failing one class is not the end of the world. How do you feel about retaking it? — 0 — reassurance and question
+ 5.seeker_123: I don't mind retaking it, really — 1 — self-assessment of emotional acceptance
+ supporter_123: Ah so you feel that this is going to be severely disruptive to your plans for this winter break? — 0 — paraphrasing question
+ 6.seeker_123: yha. also, im worried i might fail again if i get too distracted by my family — 1 — self-reflective reasoning about concern and distraction  — 1 — reflection
+
+ supporter_123: Is it possible for you to get any sort of private tutoring which might help you? — 0 — suggestion
+ 7.seeker_123: i mean, tutoring is just another added time commitment. I really failed the first time because i was depressed and unmotivated. which is why I'm excited to be with my family finally — 1 — reflective reasoning connecting past emotion to current motivation — 1 — reflection 
+ supporter_123: Ah .. in that case is it possible to talk to your doctor? They might be able to get a special allowance for you given your personal circumstances — 0 — suggestion
+8. seeker_123: yeah. that's another thing. I havent told my therapist or even my parents yet — 1 — self-reflective realization about avoidance
+ 9.seeker_123: that i failed — 1 — continuation of self-disclosure and reflection
+ supporter_123: I think that it would be a really good idea if you talked to them about it. They will probably be a lot more understanding than you might think — 0 — supportive advice
+ 10.seeker_123: what if they're disappointed — 0 — direct question expressing fear
+ supporter_123: If they love you, and I am sure that your family do, then they will accept what has happened without criticism — 0 — reassurance
+ 11.seeker_123: how do i even begin to start the conversation — 0 — direct request for advice
+ supporter_123: Well, do you have any siblings that you are close to and that you could tell first? — 0 — question
+ 12.seeker_123: yeah i told my twin sister, actually — 0 — factual statement
+ supporter_123: It is good to hear you have a twin. Are you very close? — 0 — question
+ 13.seeker_123: definitely. we go to different schools but we live together in nyc — 0 — factual statement
+ supporter_123: Well I think that it might be a very good idea if she could approach the rest of your family and maybe even your therapist on your behalf? — 0 — suggestion
+ 14.seeker_123: yha she's better at breaking bad news than i do... maybe i can ask her. i think i should tell my therapist myself though. — 1 — self-reflective reasoning and planning  — 1 — coming to self-realization via soundboarding
+
+ supporter_123: Well, your therapist is not, in my mind, as important as your family. But I think that both will understand! — 0 — reassurance
+ 15.seeker_123: yeah. well i feel much better about this. thank you so much — 0 — gratitude and emotional closure
